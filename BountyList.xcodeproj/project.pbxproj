@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		EE64B0A524C1B0950028B7F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0A424C1B0950028B7F7 /* AppDelegate.swift */; };
 		EE64B0A724C1B0950028B7F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0A624C1B0950028B7F7 /* SceneDelegate.swift */; };
-		EE64B0A924C1B0950028B7F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0A824C1B0950028B7F7 /* ViewController.swift */; };
 		EE64B0AC24C1B0950028B7F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE64B0AA24C1B0950028B7F7 /* Main.storyboard */; };
 		EE64B0AE24C1B09B0028B7F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE64B0AD24C1B09B0028B7F7 /* Assets.xcassets */; };
 		EE64B0B124C1B09B0028B7F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE64B0AF24C1B09B0028B7F7 /* LaunchScreen.storyboard */; };
+		EE64B0B924C1B0DB0028B7F7 /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0B824C1B0DB0028B7F7 /* BountyViewController.swift */; };
+		EE64B0BB24C1BDD50028B7F7 /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0BA24C1BDD50028B7F7 /* BountyInfo.swift */; };
+		EE64B0BD24C1BFF40028B7F7 /* BountyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0BC24C1BFF40028B7F7 /* BountyCell.swift */; };
+		EE64B0BF24C1D93C0028B7F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0BE24C1D93C0028B7F7 /* DetailViewController.swift */; };
+		EE64B0C124C25E9D0028B7F7 /* BountyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0C024C25E9D0028B7F7 /* BountyViewModel.swift */; };
+		EE64B0C324C2649A0028B7F7 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE64B0C224C2649A0028B7F7 /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE64B0A124C1B0950028B7F7 /* BountyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE64B0A424C1B0950028B7F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE64B0A624C1B0950028B7F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE64B0A824C1B0950028B7F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE64B0AB24C1B0950028B7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE64B0AD24C1B09B0028B7F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE64B0B024C1B09B0028B7F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE64B0B224C1B09B0028B7F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE64B0B824C1B0DB0028B7F7 /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
+		EE64B0BA24C1BDD50028B7F7 /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
+		EE64B0BC24C1BFF40028B7F7 /* BountyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyCell.swift; sourceTree = "<group>"; };
+		EE64B0BE24C1D93C0028B7F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EE64B0C024C25E9D0028B7F7 /* BountyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewModel.swift; sourceTree = "<group>"; };
+		EE64B0C224C2649A0028B7F7 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				EE64B0A424C1B0950028B7F7 /* AppDelegate.swift */,
 				EE64B0A624C1B0950028B7F7 /* SceneDelegate.swift */,
-				EE64B0A824C1B0950028B7F7 /* ViewController.swift */,
 				EE64B0AA24C1B0950028B7F7 /* Main.storyboard */,
 				EE64B0AD24C1B09B0028B7F7 /* Assets.xcassets */,
 				EE64B0AF24C1B09B0028B7F7 /* LaunchScreen.storyboard */,
 				EE64B0B224C1B09B0028B7F7 /* Info.plist */,
+				EE64B0B824C1B0DB0028B7F7 /* BountyViewController.swift */,
+				EE64B0BA24C1BDD50028B7F7 /* BountyInfo.swift */,
+				EE64B0BC24C1BFF40028B7F7 /* BountyCell.swift */,
+				EE64B0BE24C1D93C0028B7F7 /* DetailViewController.swift */,
+				EE64B0C024C25E9D0028B7F7 /* BountyViewModel.swift */,
+				EE64B0C224C2649A0028B7F7 /* DetailViewModel.swift */,
 			);
 			path = BountyList;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE64B0A924C1B0950028B7F7 /* ViewController.swift in Sources */,
+				EE64B0BB24C1BDD50028B7F7 /* BountyInfo.swift in Sources */,
 				EE64B0A524C1B0950028B7F7 /* AppDelegate.swift in Sources */,
+				EE64B0B924C1B0DB0028B7F7 /* BountyViewController.swift in Sources */,
+				EE64B0C124C25E9D0028B7F7 /* BountyViewModel.swift in Sources */,
+				EE64B0BF24C1D93C0028B7F7 /* DetailViewController.swift in Sources */,
 				EE64B0A724C1B0950028B7F7 /* SceneDelegate.swift in Sources */,
+				EE64B0BD24C1BFF40028B7F7 /* BountyCell.swift in Sources */,
+				EE64B0C324C2649A0028B7F7 /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
